@@ -15,6 +15,6 @@ names = [businesse["name"]
          for businesse in businesses if businesse["rating"] > 4.5]
 print(names)
 
-# If we want to iterate
+# To Iterate Over
 for businesse in businesses:
     print(businesse["name"])
